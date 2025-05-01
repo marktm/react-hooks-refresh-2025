@@ -1,54 +1,34 @@
-# React + TypeScript + Vite
+# React Hooks Refresh 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [useState](#useState-hook)
+- [useEffect](#useEffect-hook)
+- [useContext](#useContext-hook)
+- [useReducer](#useReducer-hook)
+- [useRef](#useRef-hook)
+- [useImperativeHandle](#useImperativeHandle-hook)
+- [useLayoutEffect](#useLayoutEffect-hook)
+- [useInsertionEffect](#useInsertionEffect-hook)
+- [useId](#useId-hook)
+- [useTransition](#useTransition-hook)
+- [useDeferredValue](#useDeferredValue-hook)
+- [useSyncExternalStore](#useSyncExternalStore-hook)
 
-Currently, two official plugins are available:
+## useContext
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## useReducer
 
-## Expanding the ESLint configuration
+## useRef
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## useImperativeHandle
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## useLayoutEffect
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## useInsertionEffect
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## useId
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## useTransition
+
+## useDeferredValue
+
+## useSyncExternalStore
